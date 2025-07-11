@@ -252,3 +252,15 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 .user-img{
     border-radius: 50%;
 }
+/* hover effects */
+a:hover{
+    color: blue;
+}
+.button:hover{
+    background-color: rgba(80, 80, 215, 0.763);
+}
+.button:active {
+  background-color:rgb(100, 6, 100);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
